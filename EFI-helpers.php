@@ -19,17 +19,17 @@ There are 4 really important functions in here:
 //Last Updated Sept 10 2013 3:36pm
 
 if (gethostname() == 'Prepress-iMac-2.local'){
-    $epacehost = "192.168.0.225";
-    $apiusername = 'OLP';
-    $apipassword = 'OLPserv09'; 
-} elseif (gethostname() == 'olp3') {
-    $epacehost = "192.168.0.225";
-    $apiusername = 'OLP';
-    $apipassword = 'OLPserv09';     
+    $epacehost = "123.123.123.123";
+    $apiusername = 'username';
+    $apipassword = 'password'; 
+} elseif (gethostname() == 'bob') {
+    $epacehost = "967.967.967.967";
+    $apiusername = 'u2';
+    $apipassword = 'sdfreve';     
 } else {
-    $epacehost = "209.151.136.87";
-    $apiusername = 'OLP';
-    $apipassword = 'OLPserv09';  
+    $epacehost = "222.222.222.222";
+    $apiusername = 'fsddsfsdf';
+    $apipassword = 'dsfwefwe';  
 }
 
 
